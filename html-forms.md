@@ -15,23 +15,6 @@ The following provides an overview of HTML forms. Here's a simple HTML form.
 </form>
 ```
 
-Here's what this form would look like in a browser:-
-
----
-
-<form action="process.php" method="POST">
-<div>  
-<label for="firstname">First Name:</label>
-<input type="text" name="fname" id="firstname">
-</div>
-<div>
-<label for="secondname">Second Name:</label>
-<input type="text" name="secName" id="secondname">
-</div>
-<input type="submit">
-</form>
-
----
 
 ## The ```<form>``` tags
 The ```<form>``` element is simply a container that marks out the start and end of the form. Every form must have an opening and a closing ```<form>``` tag!
