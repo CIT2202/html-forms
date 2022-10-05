@@ -29,10 +29,7 @@ The ```type``` attribute specifies the type of form control. In this example *te
 ```
 
 * The *name* attribute is used to identify data when sent to a web server
-* The *value* attribute is the actual data that will be sent. For text fields the user would type this in. In this example I have added a value as an HTML attribute so we can see the effect.
-This form control would be rendered as:
-
-  <input type="text" name="fname" id="firstname" value="Fred">
+* The *value* attribute is the actual data that will be sent. For text fields the user would normally type this in. In this example I have added a value as an HTML attribute so we can see the effect.
 
 ## The ```<label>``` element
 
@@ -85,16 +82,6 @@ Radio buttons work as a group
 
 * The ```<fieldset>``` is used to group a collection of form controls together.
 * The ```<legend>``` element provides a label for the ```<fieldset>```
-
-These radio buttons would be rendered as:-
-
-
-<fieldset>
-<legend>Which of these is not a colour of the rainbow</legend>
-<input type="radio" name="colours" id="red"> <label for="red">Red</label>
-<input type="radio" name="colours" id="silver"> <label for="silver">Silver</label>
-<input type="radio" name="colours" id="blue"> <label for="blue">Blue</label>
-</fieldset>
 
 ## Learning More
 Have a look at MDN for useful info on forms, specifically:-
